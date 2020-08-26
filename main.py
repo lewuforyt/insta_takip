@@ -20,14 +20,17 @@ print("""
 
 print('Tüm kütüphaneleri yükledik.')
 
-driver_path = 'chromedriver.exe'
+driver_path = 'C:\\Users\\acmlk\\OneDrive\\Masaüstü\\ses\\chromedriver.exe'
 browser = webdriver.Chrome(driver_path)
 action = webdriver.ActionChains(browser)
 
+
+browser.get("https://www.instagram.com/")
 usrnm = input('Username gir :')
 pswd = input('Şifresi gir:')
-browser.get("https://www.instagram.com/")
 time.sleep(5)
+
+
 
 a = browser.find_element_by_name('username')
 b = browser.find_element_by_name('password')
