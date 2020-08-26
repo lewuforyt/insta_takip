@@ -1,11 +1,12 @@
+os.system('pip install selenium')
+
+
 from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
 import time
 import os
 
-os.system('pip install pyperclip')
-os.system('pip install selenium')
 
 
 
