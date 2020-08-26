@@ -3,7 +3,6 @@ import time
 from selenium.webdriver.common.keys import Keys
 import time
 import os
-import pyperclip
 
 os.system('pip install pyperclip')
 os.system('pip install selenium')
