@@ -8,11 +8,7 @@ import pyperclip
 os.system('pip install pyperclip')
 os.system('pip install selenium')
 
-yol = os.path.abspath('chromedriver.exe')
-yol2 = yol.replace("\\", "\\\\")
-print(yol2)
-pyperclip.copy(yol2)
-os.system('cls')
+
 
 
 
@@ -22,9 +18,9 @@ print("""
  / __  / /| |/ /___    / /  /_____/    / __  / /_/ / /  / / /_/ / _, _/   / /  
 /_/ /_/_/ |_/_____/   /_/             /_/ /_/\____/_/  /_/\____/_/ |_|   /_/   """)
 
-print('Tüm kütüphaneleri yükledik. Driver yolunu sizin için kopyaladık. Şimdi programı kapatın ve kaynak kodunda driver_path = kısmına tırnak işaretleri arasına yapıştırın. Yazdıysanız devam edin')
+print('Tüm kütüphaneleri yükledik.')
 
-driver_path = 'BURAYA YAPIŞTIRIN'
+driver_path = 'chromedriver.exe'
 browser = webdriver.Chrome(driver_path)
 action = webdriver.ActionChains(browser)
 
