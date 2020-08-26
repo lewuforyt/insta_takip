@@ -22,7 +22,7 @@ print("""
  / __  / /| |/ /___    / /  /_____/    / __  / /_/ / /  / / /_/ / _, _/   / /  
 /_/ /_/_/ |_/_____/   /_/             /_/ /_/\____/_/  /_/\____/_/ |_|   /_/   """)
 
-print('Tüm kütüphaneleri yükledik. Driver yolunu sizin için kopyaladık. Şimdi programı kapatın ve kaynak kodunda driver_path = kısmına tırnak işaretleri arasına yapıştırın.')
+print('Tüm kütüphaneleri yükledik. Driver yolunu sizin için kopyaladık. Şimdi programı kapatın ve kaynak kodunda driver_path = kısmına tırnak işaretleri arasına yapıştırın. Yazdıysanız devam edin')
 
 driver_path = 'BURAYA YAPIŞTIRIN'
 browser = webdriver.Chrome(driver_path)
